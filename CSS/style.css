@@ -958,6 +958,9 @@ body{
 
 
 
+
+
+
 @media all and (max-width: 1200px){
 
 	body{
@@ -1000,7 +1003,7 @@ body{
 		position: relative;
 		left:0%;
 		right: 20px;
-		bottom: 250px;
+		bottom: 350px;
 		margin-left: auto;
 		margin-right: auto;
 		width: fit-content;
@@ -1019,7 +1022,7 @@ body{
 	}
 	.titlee{
 		margin-top: 230px;
-		margin-bottom: 80px;
+		margin-bottom: 40px;
 		height: fit-content;
 		width: fit-content;
 		margin-left: auto;
@@ -1059,7 +1062,7 @@ body{
 	
 	.play-icn{
 		position: relative;
-		bottom: 360px;
+		bottom: 440px;
 		right: 160px;
 	}
 	
@@ -1273,6 +1276,10 @@ body{
 	.subscribe{
 		margin-top: 500px;
 	}
+	.subs-title{
+		height: fit-content;
+		width: fit-content;
+	}
 	.shape img{
 		width: 40vw;
 		margin-top: -100px;
@@ -1280,7 +1287,8 @@ body{
 	.shape1{
 		position: relative;
 		
-		top:450px;
+		top:480px;
+
 	}
 	.shape1 img{
 		width: 20vw;
@@ -1338,10 +1346,10 @@ body{
 
 	 .menu {
 		display: none;
-		flex-direction: column;
 		margin-right: auto;
 		margin-left: auto;
 		width: 100%;
+		cursor: pointer;
 		
 		
 		
@@ -1352,6 +1360,22 @@ body{
 	}
 
 
-	.menubar #toggle[type='checkbox':checked] ~ .menu{
+	 #toggle:checked + .menu{
 		display: flex;
+		flex-direction: column;
 	}
+
+
+	@media all and (max-width: 630px){
+		.shape1{
+			position: relative;
+			top: 600px;
+		}
+		.play-icn{
+			position: relative;
+			bottom: 430px;
+		}
+		.titlee{
+
+			margin-top: 330px;
+		}

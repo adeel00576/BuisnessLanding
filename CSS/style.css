@@ -718,20 +718,20 @@ body{
 }
 
 .pluss1{
-	padding-left: 195px;
+	float: right;
 
 
 }
 .pluss2{
-	padding-left: 195px;
+	float: right;
 
 }
 .pluss3{
-	padding-left: 195px;
+	float: right;
 
 }
 .pluss4{
-	padding-left: 195px;
+	float: right;
 
 }
 
@@ -990,6 +990,9 @@ body{
 		display: flex;
 		flex-direction: column;
 		padding-left: 0px;
+		margin-top: 30px;
+		margin-bottom: 20px;
+
 	}
 	
 	.home-grid{
@@ -1077,6 +1080,7 @@ body{
 		margin-left: auto;
 		margin-right: auto;
 		width: fit-content;
+		padding-left: 60px;
 
 	}
 	
@@ -1097,6 +1101,7 @@ body{
 		grid-gap: 40px;
 		width: fit-content;
 		height: fit-content;
+
 	}
 	.strt-line{
 		display: none;
@@ -1120,7 +1125,7 @@ body{
 		margin-right: auto;
 		margin-left: auto;
 		
-		padding-left: 100px;
+		padding-left: 120px;
 	}
 	.talk-btn{
 		width: fit-content;
@@ -1172,9 +1177,10 @@ body{
 	.portfolio-title h1{
 		color: #FFFFFF;
 	}
-	.plus img{
+	.plus1 img{
 		float: right;
 	}
+	
 
 	.portfolio-grid{
 		display: flex;
@@ -1422,6 +1428,14 @@ body{
 		flex-direction: column;
 	}
 
+	.bck1-img{
+		display: none;
+	}
+	.homeee{
+		margin-top: 0px;
+	}
+
+
 
 	@media all and (max-width: 630px){
 		.shape1{
@@ -1431,15 +1445,20 @@ body{
 		.play-icn{
 			position: relative;
 			bottom: 430px;
+			right: 180px;
 		}
 		.titlee{
 
-			margin-top: 230px;
+			margin-top: 300px;
 			margin-bottom: 100px;
 		}
 		.side-img{
 			position: relative;
-			bottom: 330px;
+			bottom: 430px;
+
+		}
+		.side-img img{
+			width: 70vw;
 		}
 		.title-btn{
 			padding-left: 100px;
@@ -1486,6 +1505,9 @@ body{
 		}
 		.description{
 			margin-right: 30px;
+		}
+		.header{
+			margin-top: 30px;
 		}
 
 	}

@@ -290,9 +290,9 @@ body{
 
 }
 .layer1 img{
-	width: 48vw;
+	/*width: 48vw;*/
 	padding-right: -20px;
-	height: 80vh;
+	/*height: 80vh;*/
 }
 .des{
 	margin-top: -25px;
@@ -1120,12 +1120,13 @@ body{
 	}
 	.layer1{
 
-		width: 100%;
-		height: 100%;
+		width: fit-content;
+		height: fit-content;
 		margin-right: auto;
 		margin-left: auto;
 		
-		padding-left: 120px;
+		/*padding-left: 120px;*/
+		padding-right: 50px;
 	}
 	.talk-btn{
 		width: fit-content;
@@ -1240,7 +1241,7 @@ body{
 	}
 	.wd-title{
 		background-color: #B28AF8;
-		margin-top: 20px;
+		margin-top: 30px;
 		
 		
 
@@ -1437,6 +1438,14 @@ body{
 
 
 
+
+
+
+
+
+
+
+
 	@media all and (max-width: 630px){
 		.shape1{
 			position: relative;
@@ -1466,12 +1475,14 @@ body{
 		.layer1{
 			width: fit-content;
 			margin-right: auto;
+			height: fit-content;
 			margin-left: auto;
-			padding-left: 0px;
+			margin-bottom: 30px;
 		}
-		.layer1 img{
-			width: 62vw;
-		}
+		/*.layer1 img{
+			width: fit-content;
+			height: fit-content;
+		}*/
 		.service-title p{
 			padding-left: 50px;
 			padding-right: 50px;
@@ -1482,6 +1493,7 @@ body{
 
 		.layer1{
 			padding-right: 50px;
+
 			margin-right: auto;
 			margin-left: auto;
 		}

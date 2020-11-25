@@ -71,15 +71,19 @@ body{
 	border-radius: 40px;
 }
 .menu{
+	margin-top: -13px;
+}
+.menu  li{
 	margin-left: auto;
 	margin-right: auto;
-	display: flex;
+	display: inline;
+	
 	font-family: Roboto;
 	
 
 }
 
-.menu a{
+.menu ul li a{
 	padding-right: 30px;
 	text-decoration: none;
 	color: #FFFFFF;
@@ -536,6 +540,7 @@ body{
 	background-color: #FFF;
 
 
+
 }
 .wd-project2{
 	border-radius: 30px;
@@ -649,6 +654,7 @@ body{
 	margin-right: auto;
 	margin-left: auto;
 	width: fit-content;
+
 	
 
 }
@@ -694,6 +700,7 @@ body{
 	border-radius: 30px;
 	background-color: #FFF;
 
+
 }
 .blog3{
 	border-radius: 30px;
@@ -703,6 +710,7 @@ body{
 .blog4{
 	border-radius: 30px;
 	background-color: #FFF;
+
 
 }
 .side-baaars{
@@ -721,6 +729,7 @@ body{
 	float: right;
 
 
+
 }
 .pluss2{
 	float: right;
@@ -728,6 +737,7 @@ body{
 }
 .pluss3{
 	float: right;
+	
 
 }
 .pluss4{
@@ -1435,6 +1445,10 @@ body{
 	.homeee{
 		margin-top: 0px;
 	}
+	.shape4{
+		position: relative;
+		top: 50px;
+	}
 
 
 
@@ -1455,6 +1469,9 @@ body{
 			position: relative;
 			bottom: 430px;
 			right: 180px;
+		}
+		.logo{
+			padding-bottom: 14px;
 		}
 		.titlee{
 
@@ -1520,6 +1537,11 @@ body{
 		}
 		.header{
 			margin-top: 30px;
+		}
+		.shape4{
+			position: relative;
+			top: 10px;
+
 		}
 
 	}

@@ -428,6 +428,7 @@ body{
 	width: fit-content;
 	margin-bottom: 180px;
 
+
 }
 .expert-service-grid h1{
 	font-size: 20px;
@@ -448,6 +449,7 @@ body{
 	background-color: #FFFFFF;
 	padding-left: 20px;
 	border-radius: 30px;
+	
 }
 
 .seo-services{
@@ -457,6 +459,7 @@ body{
 	background-color: #FFFFFF;
 	padding-left: 20px;
 	border-radius: 30px;
+	
 
 }
 .your-marketing{
@@ -466,6 +469,7 @@ body{
 	background-color: #FFFFFF;
 	padding-left: 20px;
 	border-radius: 30px;
+	
 
 }
 .web-design{
@@ -475,14 +479,30 @@ body{
 	background-color: #FFFFFF;
 	padding-left: 20px;
 	border-radius: 30px;
+	
 
 }
-.plus{
+.plus1{
 	padding-top: 170px;
-}
-.plus img{
 	float: right;
+	
 }
+.plus2{
+	padding-top: 170px;
+	float: right;
+	
+}
+.plus3{
+	padding-top: 170px;
+	float: right;
+	
+}
+.plus4{
+	padding-top: 170px;
+	float: right;
+	
+}
+
 .shape4{
 	position: relative;
 	left: 3%;
@@ -1545,4 +1565,8 @@ body{
 		}
 
 	}
+
+
+
+	
 

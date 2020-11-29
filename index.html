@@ -3,6 +3,10 @@
 <head>
 	<title>Buisness Landing Page</title>
 	<meta charset="utf-8">
+	 <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
 	<link rel="stylesheet" href="./CSS/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
@@ -22,32 +26,35 @@
 						<!--  header starting from here --> 
 
 
-							<div class="menubar">
+							<!-- <div class="menubar">
 
-							 <!-- container for making menu icon active but not working..this needs JavaScript -->
+							 
 
 								<input type="checkbox" id="toggle">
 								<label for="toggle" class="check-btn">
 									<i class="fas fa-bars"></i>
 								</label>
 
-							</div>
+							</div> -->
 							<div class="logo"> <!-- Class for G Logo -->
 							<img src="img/Path-1.png" class="responsive" alt="Logo">
 							</div>
 
-							<div class="menu"> <!-- navbaar container -->
+							<div class="menu" id="menunav"> <!-- navbaar container -->
 
-							<ul>
+							
 								
-							<li><a href="#">Home</a></li>
-							<li><a href="#">About Us</a></li>
-							<li><a href="#">Services</a></li>
-							<li><a href="#">Blog</a></li>
-							<li><a href="#">Portfolio</a></li>
-							<li><a href="#">Contact Us</a></li>
+							<a href="#" class="active">Home</a>
+							<a href="#">About Us</a>
+							<a href="#">Services</a>
+							<a href="#">Blog</a></li>
+							<a href="#">Portfolio</a>
+							<a href="#">Contact Us</a>
+							<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+             				<i class="fa fa-bars"></i>
+            				</a>
 
-							</ul>
+							
 								
 							</div> <!--  navbaar ends here  -->
 					

@@ -1019,7 +1019,7 @@ body{
 	body{
 		width: 100%;
 	}
-	.menu {
+	.menu a{
 
 		display: none;
 
